@@ -1,10 +1,20 @@
 import React from 'react';
+import Product from '../components/Product';
 import './ProductScreen.css';
 
 const HomeScreen = () => {
     return (
         <div className="homescreen">
-            home screen
+            <h2 className="homescreen__title">Latest Products</h2>
+
+            <div className="homescreen__products">
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+            </div>
         </div>
     )
 }
