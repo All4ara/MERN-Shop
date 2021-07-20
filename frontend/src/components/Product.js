@@ -9,7 +9,7 @@ const Product = () => {
 
             <div className="product__info">
                 <p className="info__name">Playstation 5</p>
-                <p className="info__desc">dnfsnfldn  nsdsnldsknfsln jsfnsd nsdndlf kjd kjndsfljfl jkjjkdnfns ksndnfdn  djnsnfnsfl  kjsdnfsn ndjsfndlkfdlkns</p>
+                <p className="info__desc">PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment. Announced in 2019 as the successor to the PlayStation 4, the PS5 was released on November 12, 2020 in Australia, Japan, New Zealand, North America, Singapore, and South Korea, and November 19, 2020 onwards in other major markets except China and India.</p>
                 <p className="info__price">$499.99</p>
 
                 <Link to={`/product/${11111}`} className="info__btn">View</Link>
