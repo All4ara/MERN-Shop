@@ -7,20 +7,35 @@ const Navbar = () => {
     return (
         <nav className="navbar">
         {/* Logo */}
-        <div className="navbar__logo">
+        <div className="nav__logo">
             <h2>Mern Shopping Cart</h2>
         </div>
 
         {/* Links */}
         <ul className="navbar__links">
             <li>
-                <Link>
-
+                <Link to="/cart" className="cart__link">
+                    <i className="fas fa-shopping-cart"></i>
+                    <span>
+                        Cart
+                        <span className="cartlogo__badge">0</span>
+                    </span>
+                    
+                </Link>
+            </li>
+            <li>
+                <Link to="/" className="">
+                    Shop
                 </Link>
             </li>
         </ul>
 
         {/* Hamburger Menu */}
+        <div className="hamburger__menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         </nav>
     )
 }

@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './ProductScreen.css';
 
 const HomeScreen = () => {
     return (
-        <div>
-            
+        <div className="homescreen">
+            home screen
         </div>
     )
 }

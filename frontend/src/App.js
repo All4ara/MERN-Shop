@@ -1,13 +1,18 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+// Screens
 import HomeScreen from './Screens/HomeScreen.js';
 import ProductScreen from './Screens/ProductScreen.js';
 import CartScreen from './Screens/CartScreen.js';
 
+// Components
+import Navbar from './components/Navbar';
+
 function App() {
   return (
     <Router>
-      {/* Navbar */}
+      <Navbar  />
       {/* Sidebar*/}
       {/* Backdrop */}
       <main>
